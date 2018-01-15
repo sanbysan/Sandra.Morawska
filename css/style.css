@@ -1,0 +1,442 @@
+html, body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	font-family: Helvetica, Sans-Serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+.navbar-brand {
+	font-family: 'Sacramento', cursive;
+	font-size: 2.5rem;
+	padding: 0;
+	color: white;
+	line-height: 43px;
+}
+.btn-about {
+	min-width: 68px;
+}
+.flagi {
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+.flagi > li {
+	display: inline-block;
+	padding: 0 10px 0px 0px;
+}
+.flagi > li > a {
+    vertical-align: -webkit-baseline-middle;
+}
+.flagi > li > a > img {
+	height: 15px;
+}
+.flagi > li > a > img:hover {
+	opacity: 0.5;
+}
+
+
+ /*Carousel*/
+.carousel-item > img {
+	width: 100%;
+}
+.carousel-caption > h3 {
+	color: #ffffff;
+	text-shadow: 5px 0px 12px #5e5952;
+	font-size: 2.1rem;
+}
+
+.carousel-caption > p {
+	color: #ffffff;
+	text-shadow: 5px 0px 12px #5e5952;
+	font-size: 1.3rem;
+}
+
+
+
+#about {
+	background: url(../img/o_mnie_sandra.png) no-repeat bottom right fixed;
+    background-size: 50%;
+    min-width: 100%;
+}
+h5 {
+	margin-top: 3rem;
+}
+.about-text {
+	padding: 10% 1%;
+	background: rgba(255, 255, 255, 0.3);
+}
+#logo {
+	font-family: 'Sacramento', cursive;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+
+/*Doświadczenie*/
+
+#doswiadczenie_container {
+	background: url("../img/work.jpg") no-repeat center center fixed;
+	background-size: 100% 100%;
+	min-width: 100%;
+}
+
+#accordion {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	opacity:0.9;
+}
+#accordion a {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.4rem;
+    color: #465669;
+}
+#accordion a:hover {
+    color: #afbdce;
+}
+#accordion h6 {
+	font-size: 0.9rem;
+    color: #465669;
+	margin-top: 7px;
+}
+#accordion p {
+	font-size: 0.8rem;
+    color: #465669;
+}
+.card-header {
+	border: 1px solid #767676;
+	box-shadow: 0px 0px 45px rgba(0, 0, 0, .5);
+	padding: 25px;
+}
+#accordion ul {
+    margin: 20px 0;
+	list-style-type: square;
+	padding-right: 10px;
+}	
+
+/*Umiejętności*/
+#diagram1, #diagram2 {
+	margin: 5% auto;
+	font-size: 0.8rem;
+	min-width: 510px;
+}
+#diagram1 > li  {
+	height: 40px;
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.5);
+	background-color: #cdecf5;
+}
+#diagram2 > li  {
+	height: 40px;
+	list-style-type: none;
+	margin-bottom: 10px;
+    padding-left: 10px;
+	border-radius: 5px;
+	box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+small {
+	float: right;
+	font-style: italic;
+	margin: 10px 5px 10px 0;
+}
+
+#html {
+	width: 95%;
+}
+#css {
+	width: 95%;
+}
+#js {
+	width: 50%;
+}
+#jq {
+	width: 60%;
+}
+#bs {
+	width: 80%;
+}
+#php {
+	width: 30%;
+}
+#canvas {
+	width: 45%;
+}
+#wp {
+	width: 90%;
+}
+#ajax {
+	width: 40%;
+}
+#github {
+	width: 45%;
+}
+#wpo {
+	width: 75%;
+}
+#smm {
+	width: 85%;
+	background-color: #e27676;
+}
+#prince {
+	width: 40%;
+	background-color: #fffa8f;
+}
+#agile {
+	width: 25%;
+	background-color: #fffa8f;
+}
+#trello {
+	width: 80%;
+	background-color: #fffa8f;
+}
+#excel {
+	width: 75%;
+	background-color: #5bc0de;
+}
+#word {
+	width: 95%;
+	background-color: #5bc0de;
+}
+#powerpoint {
+	width: 75%;
+	background-color: #5bc0de;
+}
+#pgraf {
+	width: 75%;
+	background-color: #6ACB6A;
+}
+#ang {
+	width: 65%;
+	background-color: #eee;
+}
+#niem {
+	width: 20%;
+	background-color: #eee;
+}
+
+
+/*Wykształcenie*/
+
+#wyksztalcenie_content {
+    margin: 5% auto;
+}
+	
+	
+/*Kontakt*/
+#kontakt_body {
+	background: url(../img/sandra_kontakt.jpg) no-repeat bottom right fixed;
+    background-size: 50%;
+    min-width: 100%;
+}
+
+
+#contact-us {
+	margin: 7% auto;
+}
+#contact-us > form > h4 {
+	font-size: 1.7rem;
+}
+#contact-us > form {
+	font-size: 0.8em;
+	min-width: 390px;
+}
+#contact-us > form > input {
+	border-radius: 5px; 
+	min-width: 20%;
+	margin-bottom: 10px;
+}
+#contact-us > form > input[value] {
+	background: linear-gradient(#444444, #ddd); 
+	font-weight: bold;
+	box-shadow: 0 5px 2px #999;
+}
+#contact-us > form > input[value]:hover {
+	background: linear-gradient(#5bc0de, #ddd, #444444);
+}
+#contact-us > form > input[value]:active {
+	transform: translateY(4px);
+	box-shadow: 0 2px 2px #666;
+	background: linear-gradient(#444444, #ddd); 
+}
+#contact-us > form > input[type='text']:focus {
+	background: #eee; 
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/*textarea*/
+
+#comment {
+	height: 60px;
+	width: 50%;
+	border-radius: 5px;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+}
+#comment:hover {
+	width: 70%;
+	background: #eee;
+}
+#name, #mail {
+	width: 30%;
+    transition: width 1s;
+}
+#name:hover, #mail:hover {
+	width: 40%;
+}
+
+
+#contact {
+	font-size: 1em;
+}
+#contact > h5 {
+	font-size: 1.7rem;
+	padding-bottom: 20%;
+	margin: 0;
+}
+#contact > p {
+	margin: 0;
+}
+#contact > p > a {
+	color: #5e5952;
+}
+#contact > p > a:hover {
+	color: #ababab;
+	text-decoration: none;
+}		
+#contact > img {
+	width: 25px;
+	vertical-align: text-bottom;
+	padding: 5px 0px 0px 3px;
+}
+#social {
+	list-style: none;
+	padding: 0;
+	margin-top: 20%;
+	min-width: 160px;
+}
+#social > li {
+	display: inline-block;
+	padding-right: 10px;
+}
+#social > li > a > img {
+	width: 40px;
+}
+#social > li > a > img:hover {
+	opacity: 0.5;
+}
+
+
+/*Footer*/
+footer {
+	background-color: #ddd;
+    padding: 20px;
+	font-size: 0.8rem;
+	width:100%;
+	min-height:150px;	
+}
+.footer_content h6 {
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-bottom:10px;
+}
+.footer_content a {
+	color: #000;
+}
+.footer_content a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer_kontakt {
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.main_content_body {
+	min-height:100%;
+	position:relative;
+}
+
+#arrow-up img{
+	width: 2.5rem;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+
+
+@media only screen and (min-width: 1486px){
+	#diagram1 > li > img {height:35px;transition:1s;}
+	#diagram2 > li > img {height:35px;transition:1s;}
+	#niem > span > img {height: 12px;transition:1s;}
+}
+@media only screen and (max-width: 1486px){
+	#diagram1 > li > img {height:30px;transition:1s;}
+	#diagram2 > li > img {height:30px;transition:1s;}
+	#niem > span > img {height: 15px;transition:1s;}
+}
+@media only screen and (max-width: 1420px){
+	#diagram1 > li > img {height:25px;transition:1s;}
+	#diagram2 > li > img {height:25px;transition:1s;}
+	#niem > span > img {height: 15px;transition:1s;}
+}
+@media only screen and (max-width: 1315px){
+	#diagram1 > li > img {height:20px;transition:1s;}
+	#diagram2 > li > img {height:20px;transition:1s;}
+
+}
+@media only screen and (min-width: 770px) and (max-width: 1230px) {
+	#diagram1 > li {}
+	#diagram2 > li {}
+	#diagram1, #diagram2{}
+}
+
+
+
+
+@media only screen and (min-width: 721px){
+	#accordion {min-width: 350px;transition:1s;}
+}
+@media only screen and (max-width: 720px){
+	#accordion {min-width: 100%;transition:1s;}
+}
+@media only screen and (min-width: 577px){
+	.footer_content {margin: 0 10px 0 30px;transition:1s;}
+}
+
+@media only screen and (min-width: 576px){
+	.footer_div {border-right: 1px  double #a39b90;transition:1s;}
+	.footer_content {margin:0;transition:1s;}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px){	
+	#wyksztalcenie_content h4 {font-size:1.1rem;transition:1s;}
+	#wyksztalcenie_content p {font-size:0.8rem;transition:1s;}
+}
+
+@media only screen and (min-width: 768px){	
+	#contact {border-left: 1px solid black; padding-left: 10%; transition:1s;}
+}
+@media only screen and (max-width: 820px){	
+	#kontakt_body{background-size: 60%;transition:1s;}
+}
+@media only screen and (max-width: 768px){	
+	#footer_kontakt {position:relative;transition:1s;}
+	#contact > h5 {padding: 10% 0;transition:1s;}
+	#social {margin-top: 10%;transition:1s;}
+	#kontakt_body{background-size: 80%;transition:1s;}
+
+}
+@media only screen and (min-width: 240px) and (max-width: 385px){
+	
+}
