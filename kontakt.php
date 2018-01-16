@@ -1,35 +1,35 @@
 <?php
 
-// Tworzymy zmienną dla imienia i nazwiska
+// zmienna dla imienia i nazwiska
 $name = $_POST['name'];
 
-// Tworzymy zmienną dla adresu email
+// zmienna dla adresu email
 $mail = $_POST['mail'];
 
-// Tworzymy zmienną dla wiadomości
+// zmienna dla wiadomości
 $message = $_POST['message'];
 
-// Podajesz adres email z którego ma być wysłana wiadomość
+// mail z którego ma być wysłana wiadomość ?????
 $odkogo = "biuro@xxxx.com";
 
-// Podajesz adres email na który chcesz otrzymać wiadomość
+// mail na, który wysyłana jest wiadomość
 $dokogo = "sandra.morawska@gmail.com";
 
-// Podajesz tytuł jaki ma mieć ta wiadomość email
+// tytuł wiadomości mail
 $tytul = "Formularz kontaktowy";
 
-// Przygotowujesz treść wiadomości
+// treść wiadomości
 $wiadomosc = "";
 $wiadomosc .= "Imie i nazwisko: " . $name . "\n";
 $wiadomosc .= "Mail: " . $mail . "\n";
 $wiadomosc .= "Wiadomość: " . $message . "\n";
 
-// Dodajemy UTF-8 do naglowka naszej wiadomości
+// UTF-8 do naglowka wiadomości
 $naglowek = "";
 $naglowek .= "Od:" . $odkogo . " \n";
 $naglowek .= "Content-Type:text/plain;charset=utf-8";
 
-// Wysyłamy wiadomość
+// Wysyłanie wiadomości
 $sukces = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
 // Przekierowywujemy na potwierdzenie
@@ -39,4 +39,3 @@ if ($sukces){
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
 }
-?>
