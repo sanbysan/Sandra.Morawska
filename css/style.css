@@ -42,6 +42,7 @@ img {
  /*Carousel*/
 .carousel-item > img {
 	width: 100%;
+	object-fit: cover;
 }
 .carousel-caption > h3 {
 	color: #ffffff;

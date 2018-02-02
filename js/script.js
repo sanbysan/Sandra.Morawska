@@ -24,7 +24,25 @@ var main = function() {
 			scrollTop: $("#about").offset().top
 		}, 1000);
 	});
-		
+
+	var strWWW = 
+	
+	window.onload = function() {
+  alert("Zapraszam na stronę www.SandraMorawska.pl");
+};
+	
+//	$('body').onload(alertFunction() {
+//			alert("ygdyuaduyayd");
+//		});
 }
+//$('body').onload(alertFunction(){
+	//		alert("ygdyuaduyayd");
+		//});
+	
+//	function alertFunction() {
+  //  alert("Page is loaded");
+//}
+
+
 	
 $(document).ready(main);
